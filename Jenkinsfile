@@ -1,8 +1,8 @@
 pipeline{
   agent any
   parameters{
-    string(name:"Path", defaultvalue: "Source Fullpath", description: "some comments")
-    text(name: "Newmsg", defaultvalue: "Title", descripition: "some text comments")
+    string(name:'Path', defaultValue: 'Source Fullpath', description: 'some comments')
+    text(name: 'Newmsg', defaultValue: 'Title', descripition: 'some text comments')
     
   }
   stages{
